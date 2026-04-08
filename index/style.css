@@ -1,0 +1,24 @@
+.slider{
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slides {
+    display: flex; /*to display all pictures*/
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slides img {
+    width: 100%;
+    height: 385px;
+    object-fit: cover; /*to control the picture to fit the div*/
+    flex-shrink: 0;             
+}
+.center-image {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
