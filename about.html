@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <img src="images/logo.jpg" alt="SkyEagle Mobile Logo" class="skyeagle-logo-img d-none d-sm-block">
+
+                    <a class="navbar-brand logo-skyeagle" href="index.html">
+                        <h2 class="text-center">SkyEagle Mobile</h2>
+                    </a>
+
+                    <!--Toggler For Mobile View-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ms-auto align-items-center">
+                            <span class="auth-area d-flex"></span>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="wishlist.html">
+                                    <i class="bi bi-heart me-1"></i>Wishlist
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cart.html">
+                                    <i class="bi bi-cart me-1"></i>Cart
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-sm btn-light" onclick="toggleDarkMode()">
+                                    <i class="bi bi-moon"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="row align-items-center m-5">
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-4">Our Story</h2>
+                <p class="text-muted">Founded in 2026, SkyEagle Mobile started with a simple goal: to make premium
+                    mobile technology accessible to everyone. We don't just sell phones; we provide the tools that keep
+                    you connected to what matters most.</p>
+                <p class="text-muted">Based in Montreal, our team works tirelessly to source the latest innovations from
+                    Apple, Samsung, and Google, ensuring our customers always have the "edge" in tech.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/logo.jpg" alt="Office Culture" class="img-fluid rounded shadow-lg">
+            </div>
+        </section>
+
+        <section class="row text-center mb-5 py-5 bg-light rounded">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <div class="p-4">
+                    <i class="bi bi-eye fs-1 text-primary"></i>
+                    <h3 class="fw-bold mt-3">Our Vision</h3>
+                    <p>To be the most trusted mobile retailer in Canada, known for integrity, innovation, and impeccable
+                        service.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4">
+                    <i class="bi bi-rocket-takeoff fs-1 text-primary"></i>
+                    <h3 class="fw-bold mt-3">Our Mission</h3>
+                    <p>To empower our community by providing cutting-edge mobile solutions that enhance daily life and
+                        productivity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section pb-5">
+            <h2 class="text-center fw-bold mb-5">Meet the Leaders</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="images/me.jpg.jpeg" alt="shanil" class="img-fluid mx-auto d-block">
+                        <div class="card-body text-center">
+                            <h2>Shanil</h2>
+                            <p class="title">CEO & Founder</p>
+                            <p>Passionate about creating innovative solutions that make everyday life easier. Believes in people-first leadership and lifelong learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="images/soular.jpg.jpeg" alt="Mike" class="img-fluid mx-auto d-block">
+                        <div class="card-body text-center">
+                            <h2>Khushi</h2>
+                            <p class="title">Art Director</p>
+                            <p>Creative and detail-oriented Art Director with a passion for transforming concepts into visually compelling campaigns. Skilled in leading cross-functional teams, managing brand identity, and delivering innovative design solutions that resonate with target audiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="images/vashish.jpg.jpeg" alt="John" class="img-fluid mx-auto d-block">
+                        <div class="card-body text-center">
+                            <h2>Vashish</h2>
+                            <p class="title">Designer</p>
+                            <p> As a designer, he blends creativity with precision, ensuring every project feels both visually striking and intuitively functional. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-5 py-5">
+        <div>
+            <div class="row container mx-auto pt-5">
+                <div class="footer-one col-lg-4 col-md-6 col-12">
+                    <img src="images/logo.jpg" alt="" style="width: 110px; height: auto">
+                    <p>SkyEagle Mobile is your one-stop shop for the latest and most innovative smartphones.
+                        We are committed to providing high-quality products and exceptional customer service.</p>
+                </div>
+
+                <div class="footer-one col-lg-4 col-md-6 col-12">
+                    <h4>FOLLOW US : </h4>
+                    <p class="text-muted">LET US BE SOCIAL</p>
+                    <div class="column">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-youtube"></i>
+                        <p>#SkyEagle_Mobile</p>
+                    </div>
+                </div>
+                <div class="footer-one col-lg-4 col-md-6 col-12">
+                    <h4>Hit Us : </h4>
+                    <p class="text-muted">Subscribe to get the latest updates and offers.</p>
+                    <form class="form-inline">
+                        <div class="col pl-0">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-light text-white" placeholder="EMAIL">
+                                <div class="input-group-prepend">
+                                    <div class="input group-text">
+                                        <i class="bi bi-arrow-right-square-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-one">
+            <p class="text-muted text-center">
+                COPYRIGHT © 2026 ALL RIGHTS RESERVED | MADE BY SHANIL R APPADOO
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
